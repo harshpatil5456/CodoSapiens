@@ -902,7 +902,7 @@ footer.row {
   .timetrack .timeline ul li:nth-child(even) div::before {
     left: -15px;
     border-width: 8px 16px 8px 0;
-    border-color: transparent #f78bbf transparent transparent;
+    border-color: transparent #394e7b transparent transparent;
   }
 }
 
