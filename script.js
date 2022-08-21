@@ -71,12 +71,12 @@ $(document).ready(function () {
 	$socialIcon.on({
 		'focus mouseenter': function () {
 			var $iconImg = $(this).children();
-			var $href = $iconImg.attr('src').slice(0, -18) + 'color.png?raw=true'; // Remove 'black.svg' from end and add 'color.svg'
+			var $href = $iconImg.attr('src').slice(0, -9) + 'color.png'; // Remove 'black.svg' from end and add 'color.svg'
 			$iconImg.attr('src', $href);
 		},
 		'blur mouseleave': function () {
 			var $iconImg = $(this).children();
-			var $href = $iconImg.attr('src').slice(0, -18) + 'black.png?raw=true';
+			var $href = $iconImg.attr('src').slice(0, -9) + 'black.png';
 			$iconImg.attr('src', $href);
 		}
 	});
