@@ -184,7 +184,7 @@ hr{
 ===================== */
 .jumbotron {
   background: linear-gradient(rgba(255, 254, 253, 1), rgba(255, 254, 253, 0.55)), url("img/bg.png") center center fixed;
-  */ background-size: cover;
+  background-size: cover;
   background-color: white;
   height: 100%;
   margin: 0;
@@ -201,9 +201,9 @@ hr{
   transform: translateY(-50%);
 }
 
-.jumbotron .row {
-  /* padding-bottom: 45px; */
-}
+/* .jumbotron .row {
+  padding-bottom: 45px;
+} */
 
 .jumbotron .logo {
   max-width: 150px;
@@ -636,7 +636,7 @@ footer.row {
 }
 
 .teamd .team-member figcaption p {
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .teamd .team-member figcaption ul {
@@ -655,6 +655,7 @@ footer.row {
 
 .teamd .team-member figcaption ul li {
   display: inline-block;
+  font-size: 14px;
   padding: 10px;
 }
 
